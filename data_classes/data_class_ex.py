@@ -76,7 +76,7 @@ class pgbook:
     pages :int
     price : float = field(default_factory=price)
     name : str = field(default = "JAVA programming")
-      
+
 
 pg = pgbook("Scott",190)
 pg1 = pgbook("Kolb",679)
